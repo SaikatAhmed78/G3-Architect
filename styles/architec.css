@@ -46,10 +46,6 @@ main {
 main>section {
     margin-top: 125px;
 }
-.section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-}
 
 
 /* navbar related style */
@@ -112,11 +108,44 @@ main>section {
     max-width: 525px;
 }
 
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
 
 #quick-list {
     font-weight: 500;
 }
 
+/* some facts related style here */
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px ;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fact-number{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.fact-description{
+max-width: 540px;
+margin-bottom: 25px;
+}
 
 
 /*section responsive */
