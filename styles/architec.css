@@ -135,6 +135,22 @@ main>section {
     margin-bottom: 20px;
 }
 
+#exp-badge{
+    padding: 45px 42px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-top: -100px;
+    margin-right: 75px;
+}   
+
+#exp-year{
+    font-size: 3.4rem;
+    font-weight: 700
+}
+
+.featured-architec img{
+width: 100%;
+}
 .y10-card .y10-title {
     font-weight: 600;
     font-size: 1.25rem;
@@ -197,6 +213,7 @@ main>section {
 
     .navbar,
     .nav-links,
+    .y10-experience,
     .team-section {
         flex-direction: column;
     }
@@ -216,11 +233,17 @@ main>section {
     .our-features {
         margin-left: 15px;
     }
+
+    #exp-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .team-section {
+    .team-section, 
+    .y10-experience{
         flex-direction: column;
     }
 
@@ -233,5 +256,9 @@ main>section {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+    #exp-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
